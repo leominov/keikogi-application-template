@@ -1,0 +1,25 @@
+{
+    "name": "leominov/keikogi-application-template",
+    "description": "Keikogi Application Template",
+    "authors": [
+        {
+            "name": "Lev Aminov",
+            "email": "leoderoko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/keikogi/web-application-template"
+        }
+    ],
+    "require": {
+        "keikogi/web-application-template": ">=1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
