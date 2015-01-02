@@ -14,3 +14,6 @@ Download <a href="https://getcomposer.org/download/">Composer</a> and run:
 
 then:
 > bower install
+
+and:
+> npm install
