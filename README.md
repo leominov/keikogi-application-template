@@ -19,3 +19,6 @@ composer.phar install
 bower install
 npm install
 ```
+or use initialization Shell script:
+
+https://github.com/leominov/keikogi-init-application
