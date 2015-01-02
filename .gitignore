@@ -1,6 +1,7 @@
 log/
 cache/
 vendor/
+www/components/
 composer.phar
 composer.lock
 .DS_Store
