@@ -10,10 +10,8 @@ Bower 1.3+
 Installation
 ------------
 Download <a href="https://getcomposer.org/download/">Composer</a> and run:
-> composer.phar install
-
-then:
-> bower install
-
-and:
-> npm install
+```sh
+composer.phar install
+bower install
+npm install
+```
