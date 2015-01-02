@@ -11,5 +11,6 @@ Installation
 ------------
 Download <a href="https://getcomposer.org/download/">Composer</a> and run:
 > composer.phar install
+
 then:
 > bower install
