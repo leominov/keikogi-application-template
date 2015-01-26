@@ -5,12 +5,14 @@ cache/
 vendor/
 
 node_modules/
+bower_components/
 screenshots/
+www/static/
 
-www/components/
-
+phpunit.phar
 composer.phar
 composer.lock
+
 Thumbs.db
 
 .DS_Store

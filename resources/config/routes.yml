@@ -1,1 +1,3 @@
-#yo, bitch!
+controller_default:
+    prefix: /
+    resource: 'routing/default.yml'
