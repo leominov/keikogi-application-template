@@ -10,6 +10,21 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        mkdir: {
+            all: {
+                options: {
+                    create: [
+                        'static/css',
+                        'static/js',
+                        'www/static/css',
+                        'www/static/js',
+                        'www/static/fonts',
+                        'www/static/images',
+                        'www/static/uploads',
+                    ]
+                },
+            },
+        },
         concat: {
             options: {
                 sourceMap: (options.isDev) ? false : true
@@ -55,6 +70,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-mkdir');
+
+    grunt.registerTask('mkdir:static', ['mkdir']);
 
     grunt.registerTask('compile:css', ['cssmin']);
     grunt.registerTask('compile:js', ['concat', 'uglify']);
