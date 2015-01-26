@@ -54,6 +54,10 @@ install_node_packages() {
     npm install
 }
 
+make_dirs() {
+    grunt mkdir:static
+}
+
 compile() {
     grunt compile
 }
@@ -65,6 +69,7 @@ main() {
     install_grunt
     install_composer_packages
     install_node_packages
+    make_dirs
     compile
 }
 
